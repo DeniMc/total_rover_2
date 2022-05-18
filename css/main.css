@@ -39,7 +39,7 @@ nav ul li {
 #hero-pic {
   width: 100%;
   height: 100vh;
-  background: url(../dist/images/teamparty.jpg);
+  background-image: url(/dist/images/teamparty.jpg);
   background-size: cover;
   position: fixed;
 }
