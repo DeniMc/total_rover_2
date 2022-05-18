@@ -1,0 +1,108 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    header { width: 100%;
+    height: 11vh;
+    position: relative;
+    z-index: 10;
+    margin-top: -1%;}
+    
+    /*header fixed to stay at top of the page on scroll. Z index keeps it at forefront */
+    
+    nav ul{ 
+        width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    }
+    
+    nav ul li { width: 20%;
+    text-align: center;
+    font-size: 4em;
+    padding: 0.3em;
+    margin-left: -1%;
+    color: rgb(63, 14, 63);
+    text-shadow: 5px 5px 5px plum;
+    border: 1px solid transparent;
+    border-left: none;
+    border-radius: 0 1em 1em 0;
+    box-shadow: 10px 5px 5px rgb(41, 32, 75);
+    }
+    
+    
+    #hero-pic { width: 100%;
+    height: 100vh;
+    background-image: url(images/teamparty.jpg);
+    background-size: cover;
+    position: fixed;
+    }
+    
+    /* main picture is fixed position. Content in main scrolls over it */
+    
+    main { position: relative;
+        top: 100vh;
+    }
+    
+    h1  { font-size: 9em;
+        font-family: 'Bungee Inline', cursive;
+      /*  font-family: 'Star Jedi', arial;*/
+    margin-top: -0.1%;
+    background-color: transparent;
+    text-align: center;
+    color: rgb(35, 143, 35);
+    box-shadow: 5px 5px 0px 0px green, 10px 10px 0px 0px lightgreen, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px yellowgreen, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    text-shadow: 10px 10px 0 black; }
+    
+    .about-intro { display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    padding: 1em;}
+    
+    article { display: flex;
+    padding: 1em;
+    margin 1em;}
+    
+    p { font-size: 2.5em;
+    margin: 1em;
+    padding-left: 1em ;
+    border-left: 0.5px solid purple;}
+    
+    img { width: 30%;
+    height: 30vh;
+    object-fit: cover;}
+    
+    h2 { font-size: 4.5em;
+    text-shadow: 5px 5px 5px white;}
+    
+    h3 { font-size: 2.8rem; text-align: center;}
+    
+    main { background-color: rgb(192, 219, 192);
+    width: 100vw;}
+    
+    footer { display: flex;
+        width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2%;
+    border-top: solid 1px purple;
+    padding: 1em;}
+    
+    .footer-pic { width: 300px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 5%;
+    border: 5px solid purple;
+    box-shadow: 5px 5px 5px plum;}
+    
+    figcaption {font-size: 2em; 
+    text-align: center;}
+    
+    #sweet-home { width: 20%;}
+    
+    pre { font-size: 2em;}
+    
